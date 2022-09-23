@@ -1,38 +1,336 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ------------------------------------App ------------------------------------------------------- */
+.App{
+  width: 100%;
   display: flex;
+}
+.main_comp{
+  width: 90%;
+  display:  flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ----------------------------------- navbar  --------------------------------------------------- */
+
+.navbar_container{
+  margin: 1.4rem 1.4rem;
+  width: 100%;
+}
+.navbar_data{
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar_icons{
+  display: flex;
+}
+.navbar_last_div{
+  display: flex;
+}
+
+.header_icon{
+  margin: 0 0.4rem;
+  padding: 0.4rem;
+  background-color: lightgrey;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+.header_icon:hover{
+ cursor: pointer;
+ background-color: #fff;
+ box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.4);
+}
+.navbar_user_heading{
+line-height: 30px;
+margin-left: 0.3rem;
+}
+.navbar_heading_Data{
+  font-size: 1.7rem;
+  font-family: bold;
+  color: rgb(70, 68, 68);
+}
+.navbar_middle{
+  font-family: regular;
+  color: grey;
+  font-weight: bold;
+}
+.navbar_middle_data{
+  color: #F50057;
+  font-family: light !important;
+  line-height: 30px;
+}
+.fa-caret-down{
+  cursor: pointer;
+}
+.navbar_last_div{
+  line-height: 30px;
+}
+.navbar_last_icon{
+  margin: 0 0.5rem;
+  color: #37474F;
+  cursor: pointer;
+}
+/* ---------------------------------- sidebar ----------------------------------------------------- */
+.container{
+  width: 70px;
+  height: 98vh;
+  background-color: #37474F;
+  margin: 0 0.6rem;
+}
+.bar_icon{
+  width: 25px;
+}
+.sidebar_data{
+    text-align: center;
+    padding: 1rem 0;
+} 
+.heading{
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sidebar_icons:hover{
+background-color: #F50057;
+margin: 0 0.7rem;
+border-radius: 4px;
+cursor: pointer;
+}
+.user_icon{
+  margin-top: 3.8rem;
+  display: flex;
+  justify-content: space-around;
+
+}
+.user_img{
+  width: 40px;
+  height: 40px;
+  margin-left: 0.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.user_img{
+  object-fit: cover;
+}
+.up_down{
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+/* ----------------------------------------- main component  ------------------------------------------- */
+.main_component{
+  width: 100%;
+  height: 85vh;
+  margin: 0 1.4rem;
+  background-color: #fff;
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+} 
+.filter-table{
+  width: 25%;
+  margin: 0 1rem;  
+}
+.main-table{
+  width: 70%;
+}
+.verticle{
+border-left: 1px solid #e0e0e0;
+height: 85vh;
+
+}
+.btn-plus-icon{
+  background-color:#2e7d32  ;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.filter-table-head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -1.4rem;
+}
+.filter-table-head-data{
+  line-height: 70px;
+  font-size: 1.2rem;
+  font-family: medium;
+  margin: 0 0.4rem;
+  
+}
+
+hr { 
+  display: block;
+   height: 1px;
+  border: 0;
+   border-top: 1px solid rgb(233, 230, 230);
+  margin: 1em 0;
+   padding: 0;
+   margin-left: -0.8rem;
+   width: 108%;
+   }
+
+.hr-data{
+  display: block;
+  height: 1px;
+ border: 0;
+  border-top: 1px solid rgb(233, 230, 230);
+ margin: 0.55em 0 !important ;
+ margin-left: -1rem !important;
+  padding: 0;
+  margin-left: -0.8rem;
+  width: 108%;
+}
+
+
+
+.search-main-component{
+  display: flex;
+  background-color: #e0e0e0;
+  border-radius:10px ;
+  margin: 1.2rem 0;
+}
+
+.search-input{
+  width: 85%;
+  border: 0px;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-family: regular;
+  background-color: #e0e0e0;
+  outline: none;
+  border-radius:10px;
+}
+.search-icon{
+  margin-top: 0.5rem;
+  cursor: pinter;
+}
+
+.review-btn{
+  width: 90px;
+  height: 25px;
+  font-size: 0.7rem !important;
+  background-color: #f8c374 !important;
+  font-family: regular;
+
+}
+.review-btn1{
+  width: 70px;
+  height: 25px;
+  font-size: 0.7rem !important;
+  font-family: regular;
+  border: 1px solid black !important;
+}
+.btn-space{
+  margin: 0 1rem;
+}
+
+.small-search-data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-func-description{
+  line-height: 15px;
+  font-family: regular;
+  font-size: 11px;
+}
+.des-name{
+  line-height: 30px;
+  color: rgb(47, 119, 207);
+  font-family: medium;
+}
+
+
+/* --------------------------------------------- main table  ------------------------------------------------- */
+.main-table{
+  margin: 1.5rem 0;
+}
+.main-table-head{
+font-family: medium;
+font-weight:550;
+font-size: 1.2rem;
+color: #181819;
+margin: 0 2rem;
+}
+.main-component-text{
+  display: flex;
+  margin: 1.6rem 2rem !important;
+}
+.main-small-container-data, .main-table-text-packs{
+  width: 350px;
+  height: 80px;
+  border: 1px solid rgb(184, 181, 181);
+  outline: none;
+  border-radius:7px ;
+  margin-top: 10px;
+}
+.total-text-data, .total-text-value{
+  margin: 0.9rem 2.5rem;
+  font-family: medium;
+}
+.total-text-value{
+  margin: 0.9rem 2.9rem;
+  color: #43a047;
+}
+.verticle1{
+  border-left: 1px solid #c8c6c6;
+height: 80px;
+}
+.main-small-container-data{
+  display: flex;
+}
+.total-text-data, .total-text-value{
+  flex-direction: column !important;
+}
+.main-table-text-packs{
+  margin: 0 4rem;
+}
+.failed{
+  color:#F50057;
+}
+.text-packs{
+  margin: 0 3rem;
+}
+.main-navbar-left-div{
+  display: flex;
+  margin: 0 2rem;
+}
+.test-cases-btn, .test-cases-btn1{
+  width: 120px;
+  height: 25px;
+  font-size: 0.7rem !important;
+  background-color:#F50057 !important;
+  font-family: regular;
+  border-radius: 30px !important;
+  color: #fff !important;
+}
+.test-cases-btn1{
+  margin: 0 1rem !important;
+}
+.main-component-navbar{
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main-navbar-right-div{
+  display: flex;
+}
+.table-down-icons{
+  margin: 0 0.4rem;
+  margin-top: -0.7rem !important;
+  background-color:#2e7d32  ;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+.table-down-icons1{
+  margin: 0 0.4rem; 
+}
+.main-component-table-main-component{
+  margin-top: -2rem !important;
+  margin: 0 2rem;
+}
+.left-right-icon{
+  margin-top: -1rem;
+  margin-left: -0.1rem;
 }
