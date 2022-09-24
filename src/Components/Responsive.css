@@ -1,0 +1,209 @@
+ /* All pages media querry are written here */  
+
+ @media only screen and (min-width: 120px) and (max-width: 480px)  {
+    .navbar_middle_data{
+        display: none;
+    }
+    .navbar_heading_Data{
+        font-size: 1.4rem;
+    }
+    .header_icon{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+    .bar-svg-icon{
+        display: block !important;
+        margin-top: 1.4rem;
+        margin-left: 0.3rem;
+    }
+    .small-main-container{
+        display: block !important;
+    }
+    .small-filter-table{
+        width: 96% !important;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .main_component{
+        display: none;
+    }
+    .main_component{
+        width: 100% !important;
+        margin-left: -0.7rem;
+        overflow-x: none;
+    }
+    .search-main-component{
+        margin-right: 1rem;
+    }
+    .search-input{
+        width: 80% !important;
+    }
+    .navbar_container{
+     margin-left: -0.01rem;;
+    }
+    .verticle{
+        height: 0px !important;
+    }
+ }
+
+ /* -------------------- Media query (min-width: 481px) and (max-width: 768px) ---------------  */
+
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+.navbar_middle_data{
+    display: none;
+}
+.bar-svg-icon{
+    display: none;
+}
+.small-main-container{
+    display: block !important;
+}
+.small-filter-table{
+    width: 96% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.main_component{
+    display: none;
+}
+.main_component{
+    margin-left: 0.6rem !important;
+}
+.search-input{
+    width: 85% !important;
+}
+.search-main-component{
+    margin-right: 1rem;
+}
+.navbar_container{
+    margin-left: -0.1rem !important;
+    }
+    .small-main-container{
+        margin-left: -0.1rem !important;
+    }
+    .verticle{
+        height: 0px !important;
+    }
+}
+
+/* -------------------- Media query (min-width: 768px)  and (max-width: 992px) ---------------  */
+
+@media only screen and (min-width: 769px)  and (max-width: 992px)  {
+.navbar_heading_Data{
+    font-size: 1.5rem;
+}
+.verticle{
+    height: 0px !important;
+}
+.bar-svg-icon{
+    display: none;
+}
+.small-main-container{
+    display: block !important;
+}
+.small-filter-table{
+    width: 96% !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+}
+.main_component{
+    display: none;
+}
+.main_component{
+    margin-left: -0.2rem;
+}
+.search-input{
+    width: 92% !important;
+}
+.navbar_container{
+    margin-left: -0.1rem !important;
+}
+.small-tab{
+    display: block !important;
+}
+
+.main_component{
+    height: fit-content !important;
+}
+.navbar_container{
+    margin-left: -0.2rem !important;
+    }
+}
+
+/* -------------------- Media query (min-width: 993px) and (max-width: 1200px) ---------------  */
+
+
+@media only screen and (min-width: 993px) and (max-width: 1200px)  {
+    .bar-svg-icon{
+        display: none;
+    }
+    .search-data-main-div{
+        /* overflow-x: hidden !important; */
+        /* overflow-y: none !important; */
+    }
+    .filter-table{
+        width: 30% !important;
+    }
+    .des-name{
+        font-size: 0.8rem !important;
+    }
+    .review-btn{
+        width: 0px !important;
+    }
+    .search-data-main-div{
+        height: 58vh !important;
+      }
+
+      .main-component-text{
+        flex-wrap: wrap;
+      }
+      .text-packs{
+      margin-top: 1rem;
+      margin-left: -0.2rem;
+      }  
+}
+
+/* -------------------- Media query (min-width: 1201px) ---------------  */
+
+@media only screen and  (min-width: 1201px) and (max-width:1300px)  {
+  
+    .search-data-main-div{
+        overflow-x: none !important;
+        overflow-y: scroll !important;
+    }
+    .filter-table{
+        width: 30% !important;
+    }
+    .des-name{
+        font-size: 0.8rem !important;
+    }
+    .review-btn{
+        width: 0px !important;
+    }
+    .search-data-main-div{
+        height: 60vh !important;
+      }
+
+      .main-component-text{
+        flex-wrap: wrap;
+      }
+      .text-packs{
+      margin-top: 1rem;
+      margin-left: -0.2rem;
+      }
+    .main_component{
+        overflow-x: none !important;
+    }
+}
+
+@media only screen and  (min-width: 1301px)  {
+    .bar-svg-icon{
+        display: none;
+    }
+    .main_component{
+        height: 85vh;
+    }
+   
+}

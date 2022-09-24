@@ -4,11 +4,11 @@ import { tableData } from './data';
 import { border, borderRadius } from '@mui/system';
 
 const columns = [
-  { field: 'id', headerName: 'ID', width: 150,    cellClassName: 'super-app-theme--cell'},
+  { field: 'id', headerName: 'ID', width: 180,    cellClassName: 'super-app-theme--cell'},
   {
     field: 'summary',
     headerName: 'Summary',
-    width: 450,
+    width: 500,
     editable: true,
     cellClassName: 'super-app--cell'
   },
