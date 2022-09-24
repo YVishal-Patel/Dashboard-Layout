@@ -73,7 +73,7 @@ margin-left: 0.3rem;
 /* ---------------------------------- sidebar ----------------------------------------------------- */
 .container{
   width: 70px;
-  height: 98vh;
+  /* height: 98vh; */
   background-color: #37474F;
   margin: 0 0.6rem;
 }
@@ -344,5 +344,8 @@ review-btn:nth-child(2) {
   height: 60vh;
 }
 .small-main-container{
+  display: none;
+}
+.hidden-cont{
   display: none;
 }

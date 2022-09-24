@@ -7,6 +7,7 @@ import DataTable from "./Table";
 import './Responsive.css'
 
 export const MainComponent = () => {
+  // document.body.style.overflow = "hidden"
   return (
     <>
       <div className="main_component">

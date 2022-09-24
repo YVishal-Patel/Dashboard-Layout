@@ -1,6 +1,18 @@
  /* All pages media querry are written here */  
-
+body{
+    overflow-x: hidden !important;
+}
  @media only screen and (min-width: 120px) and (max-width: 480px)  {
+    .main_comp{
+        width: 90% !important;
+    }
+    .hidden-cont{
+        display: block ;
+        position: fixed;
+        top: 0;
+        left: 0 !important;
+        z-index: 99999;
+    }
     .navbar_middle_data{
         display: none;
     }
@@ -32,7 +44,10 @@
     .main_component{
         width: 100% !important;
         margin-left: -0.7rem;
-        overflow-x: none;
+    }
+    .small-search-data-main-div{
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
     }
     .search-main-component{
         margin-right: 1rem;
@@ -45,6 +60,74 @@
     }
     .verticle{
         height: 0px !important;
+    }
+
+    .small-main-container{
+         margin-left: -0.7rem !important; 
+    }
+    .verticle{
+        height: 0px !important;
+    }
+
+    .navbar_container{
+        margin-left: -0.1rem !important;
+    }
+    .small-tab{
+        margin-top: 3rem !important;
+        display: block !important;
+    }
+    
+    .main_component{
+        height: fit-content !important;
+    }
+    .navbar_container{
+        margin-left: -0.2rem !important;
+        }
+        .small-tab{
+            width: 98% !important;
+        }
+        .main-component-text{
+            flex-wrap: wrap !important;
+            margin: 1rem 2rem !important;
+        }
+        .text-packs{
+            margin-top: 1.3rem !important;
+            margin-left: -0.1rem !important;
+        }
+        .main-navbar-right-div{
+            margin-left: -2rem !important
+        }
+        .main-div-table{
+            margin: 0 -1rem !important;
+        }
+        .main-small-container-data{
+            width: 260px !important ;
+        }
+        .main-component-navbar{
+            display: none !important;
+        }
+        .main-component-table-main-component{
+            margin-top: 1rem !important;
+        }
+        .navbar_user_heading{
+            margin-left: 0.6rem;
+        }
+        
+ }
+
+ @media only screen and (min-width: 500px) and (max-width: 540px)  {
+    .navbar_last_div{
+     margin-right: 2rem;
+    }
+    .small-main-container{
+     margin-left: -0.4rem !important;
+    }
+    .main_component{
+        width: 95% !important;
+        overflow: hidden;
+    }
+    .main_comp{
+        width: 87% !important;
     }
  }
 
@@ -62,7 +145,9 @@
 }
 .small-filter-table{
     width: 96% !important;
-    overflow-x: hidden;
+}
+.small-search-data-main-div{
+    overflow-x: hidden !important;
     overflow-y: scroll;
 }
 .main_component{
@@ -86,6 +171,38 @@
     .verticle{
         height: 0px !important;
     }
+
+    .navbar_container{
+        margin-left: -0.1rem !important;
+    }
+    .small-tab{
+        margin-left: -0.7rem !important;
+    
+        margin-top: 3rem !important;
+        display: block !important;
+    }
+    
+    .main_component{
+        height: fit-content !important;
+        overflow-x: hidden !important;
+    }
+    .navbar_container{
+        margin-left: -0.2rem !important;
+        }
+        .small-tab{
+            width: 98% !important;
+        }
+        .main-component-text{
+            flex-wrap: wrap !important;
+            margin: 1rem 2rem !important;
+        }
+        .text-packs{
+            margin-top: 1.3rem !important;
+            margin-left: -0.1rem !important;
+        }
+        .main-navbar-right-div{
+            margin-left: -2rem !important
+        }
 }
 
 /* -------------------- Media query (min-width: 768px)  and (max-width: 992px) ---------------  */
@@ -105,14 +222,16 @@
 }
 .small-filter-table{
     width: 96% !important;
-    overflow-x: hidden !important;
-    overflow-y: scroll;
+}
+.small-filter-table{
+    height: 45vh !important;
 }
 .main_component{
     display: none;
 }
 .main_component{
-    margin-left: -0.2rem;
+   
+    margin-left: 10px;
 }
 .search-input{
     width: 92% !important;
@@ -121,6 +240,7 @@
     margin-left: -0.1rem !important;
 }
 .small-tab{
+    margin-top: 12rem !important;
     display: block !important;
 }
 
@@ -129,6 +249,21 @@
 }
 .navbar_container{
     margin-left: -0.2rem !important;
+    }
+    .small-tab{
+        width: 98% !important;
+
+    }
+    .main-component-text{
+        flex-wrap: wrap !important;
+    }
+    .text-packs{
+        margin-top: 1.3rem !important;
+        margin-left: -0.1rem !important;
+    }
+    .small-search-data-main-div{
+        overflow-x: hidden !important;
+        overflow-y: scroll;
     }
 }
 
@@ -140,8 +275,8 @@
         display: none;
     }
     .search-data-main-div{
-        /* overflow-x: hidden !important; */
-        /* overflow-y: none !important; */
+        overflow-x: hidden !important;
+        overflow-y: none !important;
     }
     .filter-table{
         width: 30% !important;
@@ -153,7 +288,7 @@
         width: 0px !important;
     }
     .search-data-main-div{
-        height: 58vh !important;
+        height: 88vh !important;
       }
 
       .main-component-text{
@@ -163,18 +298,31 @@
       margin-top: 1rem;
       margin-left: -0.2rem;
       }  
+      .main_component{
+        height: 120vh !important;
+        margin: 0 !important;
+      }
+      .navbar_container{
+        margin-left: -0.1rem;
+      }
 }
 
 /* -------------------- Media query (min-width: 1201px) ---------------  */
 
 @media only screen and  (min-width: 1201px) and (max-width:1300px)  {
   
+    .main_comp{
+        overflow-x: none !important;
+    }
     .search-data-main-div{
         overflow-x: none !important;
         overflow-y: scroll !important;
     }
     .filter-table{
         width: 30% !important;
+    }
+    .small-tab{
+        width: 70% !important;
     }
     .des-name{
         font-size: 0.8rem !important;
@@ -195,6 +343,16 @@
       }
     .main_component{
         overflow-x: none !important;
+    }
+
+    .bar-svg-icon{
+        display: none !important;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    .navbar_last_icon{
+        margin-right: 2rem !important;
     }
 }
 
