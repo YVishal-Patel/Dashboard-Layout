@@ -13,6 +13,7 @@ export const Sidebar = () => {
 
       console.log(data, show, 'show');
       data.current.style.display = show ? "block" : "none";
+      document.body.style.backgroundColor = show ? "lightgrey" : "none";
     }
   }
 
