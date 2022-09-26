@@ -113,7 +113,7 @@ body{
             margin: 0 -1rem !important;
         }
         .main-small-container-data{
-            width: 260px  ;
+            width: 260px !important ;
         }
         .main-component-navbar{
             display: none !important;
