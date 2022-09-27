@@ -310,6 +310,12 @@ body{
         .small-head-data{
             display: none;
         }
+        .search-func-description{
+         font-size: 14px !important;
+        }
+        .des-name{
+            font-size: 20px !important;
+        }
 }
 
 /* -------------------- Media query (min-width: 768px)  and (max-width: 992px) ---------------  */

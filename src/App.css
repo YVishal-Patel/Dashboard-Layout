@@ -134,14 +134,14 @@ margin-left: 0.3rem;
 
 .sidebar_icons:hover{
 background-color: #F50057;
-padding: 0.3rem 0;
+padding: 0rem !important;
 margin: 0 0.7rem;
 border-radius: 4px;
 cursor: pointer;
 transition: 0.1s linear;
 }
 .user_icon{
-  margin-top: 3.8rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: space-around;
 }
@@ -438,4 +438,7 @@ review-btn:nth-child(2) {
 }
 .main-fgdf{
   margin-top: -1rem !important;
+}
+.main-component-table-main-component{
+  width: 94% !important;
 }

@@ -33,7 +33,7 @@ const columns = [
 
 export default function DataTable() {
   return (
-    <div style={{ height: 350, width: '105%', overflow:"hidden"}}>
+    <div style={{ height: 350, width: '95%', overflow:"hidden"}}>
       <DataGrid
         rows={tableData}
         columns={columns}
