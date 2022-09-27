@@ -193,6 +193,7 @@ body{
     .main_comp{
         width: 87% !important;
         overflow-x: hidden;
+        margin-left: 5.7rem !important;
     }
     .navbar_icons{
         width: 70% !important;
@@ -258,7 +259,7 @@ body{
     margin-left: -0.1rem !important;
     }
     .small-main-container{
-        margin-left: -0.1rem !important;
+        margin-left: -0.3rem !important;
     }
     .verticle{
         height: 0px !important;
@@ -375,7 +376,7 @@ body{
         width: 90%;
         display: flex;
         flex-direction: column;
-        margin-left: 4.5rem;
+        margin-left: 4.3rem;
         overflow: none;
         overflow-x: hidden;
     }
@@ -426,8 +427,8 @@ body{
       margin-left: -0.2rem;
       }  
       .main_component{
-        height: 120vh !important;
-        margin: 0 5.6rem !important;
+        height: 140vh !important;
+        margin: 0 5.35rem !important;
       }
       .navbar_container{
         /* margin-left: -0.1rem; */
