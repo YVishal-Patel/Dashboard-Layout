@@ -1,8 +1,10 @@
-import * as React from 'react';
+import  React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { tableData } from './data';
 import { border, borderRadius } from '@mui/system';
+import img1 from '../Assets/setting1.png'
 
+console.log(tableData[0],"table")
 const columns = [
   { field: 'id', headerName: 'ID', width: 180,    cellClassName: 'super-app-theme--cell'},
   {
@@ -13,11 +15,18 @@ const columns = [
     cellClassName: 'super-app--cell'
   },
   {
-    field: 'mode',
+    field: "mode",
     headerName: 'Mode',
     width: 120,
     editable: true,
     cellClassName: 'super-app-data--cell'
+  },
+  {
+    field: "data",
+    headerName: '',
+    width: 120,
+    editable: true,
+    renderCell: () => <img src={img1}  width="20px"/>, 
   }
 ];
 
@@ -54,8 +63,8 @@ export default function DataTable() {
                fontFamily:'bold',
                padding:"0 1rem",
                border:"1px solid black",
-               borderRadius:'7px'
-            }
+               borderRadius:'7px',
+            } 
           }}
       />
     </div>

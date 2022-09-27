@@ -2,6 +2,46 @@
 body{
     overflow-x: hidden !important;
 }
+@media only screen and (min-width: 250px) and (max-width: 300px){
+    .navbar_container{
+        display: none !important;
+    }
+    .small-head-data{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.4rem 0;
+
+    }
+    .navbar_container{
+        display: none;
+    }
+    .navbar_small_data{
+        width: 100% !important;
+    }
+    .navbar_small_last_div{
+        margin-right: 1.6rem !important;
+    }
+    .navbar_heading_Data{
+        font-size: 24px !important;
+        margin: 0px !important;
+    }
+    .navbar_small_last_div{
+     margin-right: 0.5rem !important;
+    }
+    .small-data{
+        width: 190px !important;
+    }
+ .user_icon{
+ margin-top: 1.3rem !important;
+ }
+    
+}
+@media only screen and (min-width: 350px) and (max-width: 380px){
+    .user_icon{
+        margin-top: 1.8rem !important;
+    }
+}
 @media only screen and (min-width: 120px) and (max-width: 300px){
     .main-small-container-data{
      width: 180px !important;
@@ -44,6 +84,7 @@ body{
     }
     .small-main-container{
         display: block !important;
+        margin-left: 0.4rem !important;
     }
     .small-filter-table{
         width: 96% !important;
@@ -113,7 +154,7 @@ body{
             margin: 0 -1rem !important;
         }
         .main-small-container-data{
-            width: 260px !important ;
+            width: 260px  ;
         }
         .main-component-navbar{
             display: none !important;
@@ -123,6 +164,17 @@ body{
         }
         .navbar_user_heading{
             margin-left: 0.6rem;
+        }
+
+        .navbar_icons{
+            width: 80% !important;
+           }
+           .middle_navbar_last_navbar{
+            width: 20% !important;
+           }
+
+           .small-head-data{
+            display: none;
         }
         
  }
@@ -140,7 +192,35 @@ body{
     }
     .main_comp{
         width: 87% !important;
+        overflow-x: hidden;
     }
+    .navbar_icons{
+        width: 70% !important;
+    }
+    .middle_navbar_last_navbar{
+        width: 30% !important;
+        margin-left: 0rem !important;
+    }
+    .last_one{
+        margin-left: -2rem !important;
+    }
+    .small-head-data{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.4rem 0;
+
+    }
+    .navbar_container{
+        display: none;
+    }
+    .navbar_small_data{
+        width: 100% !important;
+    }
+    .navbar_small_last_div{
+        margin-right: 1.6rem !important;
+    }
+    
  }
 
  /* -------------------- Media query (min-width: 481px) and (max-width: 768px) ---------------  */
@@ -183,10 +263,18 @@ body{
     .verticle{
         height: 0px !important;
     }
-
-    .navbar_container{
-        margin-left: -0.1rem !important;
-    }
+ .small-scr-navbar{
+    display: block !important;
+ }
+   .navbar_icons{
+    width: 80% !important;
+   }
+   .middle_navbar_last_navbar{
+    width: 20% !important;
+   }
+   .main_comp{
+    margin-left: 5rem !important;
+   }
     .small-tab{
         margin-left: -0.7rem !important;
     
@@ -214,6 +302,12 @@ body{
         }
         .main-navbar-right-div{
             margin-left: -2rem !important
+        }
+        .navbar_last_div{
+            margin-left: 4rem !important;
+        }
+        .small-head-data{
+            display: none;
         }
 }
 
@@ -260,7 +354,7 @@ body{
     height: fit-content !important;
 }
 .navbar_container{
-    margin-left: -0.2rem !important;
+    margin-left: 0.3rem !important;
     }
     .small-tab{
         width: 98% !important;
@@ -277,6 +371,27 @@ body{
         overflow-x: hidden !important;
         overflow-y: scroll;
     }
+    .main_comp {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.5rem;
+        overflow: none;
+        overflow-x: hidden;
+    }
+    .navbar_icons{
+        width: 35% !important;
+    }
+    .middle_navbar_last_navbar{
+        width: 65% !important;
+    }
+    .navbar_last_div{
+        margin-right: 0.6rem !important;
+    }
+    .small-head-data{
+        display: none;
+    }
+ 
 }
 
 /* -------------------- Media query (min-width: 993px) and (max-width: 1200px) ---------------  */
@@ -312,17 +427,26 @@ body{
       }  
       .main_component{
         height: 120vh !important;
-        margin: 0 !important;
+        margin: 0 5.6rem !important;
       }
       .navbar_container{
-        margin-left: -0.1rem;
+        /* margin-left: -0.1rem; */
+        margin: 1.4rem 5.5rem !important;
       }
+      .main_component{
+        overflow-x:hidden !important ;
+      }
+      .small-head-data{
+        display: none;
+    }
 }
 
 /* -------------------- Media query (min-width: 1201px) ---------------  */
 
 @media only screen and  (min-width: 1201px) and (max-width:1300px)  {
-  
+    .navbar_container{
+        margin: 1.4rem 5.8rem !important;
+    }
     .main_comp{
         overflow-x: none !important;
     }
@@ -354,6 +478,7 @@ body{
       margin-left: -0.2rem;
       }
     .main_component{
+        margin: 0 5.8rem !important;
         overflow-x: none !important;
     }
 
@@ -366,6 +491,12 @@ body{
     .navbar_last_icon{
         margin-right: 2rem !important;
     }
+    .navbar_last_icon {
+     margin-right: 0rem !important;
+    }
+    .small-head-data{
+        display: none;
+    }
 }
 
 @media only screen and  (min-width: 1301px)  {
@@ -374,6 +505,12 @@ body{
     }
     .main_component{
         height: 85vh;
+    }
+    .small-head-data{
+        display: none;
+    }
+    .small-head-data{
+        display: none;
     }
    
 }
